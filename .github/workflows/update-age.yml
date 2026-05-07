@@ -1,0 +1,56 @@
+name: Atualizar idade no README
+
+# Roda diariamente às 03:00 UTC (00:00 em Aracaju) e pode ser disparada manualmente
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  atualizar-idade:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Calcular idade e atualizar README
+        run: |
+          python3 << 'EOF'
+          import re
+          from datetime import date
+
+          # Data de nascimento
+          nascimento = date(2004, 1, 23)
+          hoje = date.today()
+
+          # Calcula idade considerando se o aniversário deste ano já passou
+          idade = hoje.year - nascimento.year
+          if (hoje.month, hoje.day) < (nascimento.month, nascimento.day):
+              idade -= 1
+
+          # Lê o README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              conteudo = f.read()
+
+          # Substitui o número na linha "self.idade = XX  # AUTO_AGE"
+          padrao = r"(self\.idade\s*=\s*)\d+(\s*#\s*AUTO_AGE)"
+          substituicao = rf"\g<1>{idade}\g<2>"
+          novo_conteudo = re.sub(padrao, substituicao, conteudo)
+
+          # Salva o arquivo
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(novo_conteudo)
+
+          print(f"Idade atualizada para {idade} anos")
+          EOF
+
+      - name: Comitar mudanças (se houver)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: atualiza idade no README"
+          git push
