@@ -1,14 +1,10 @@
-<!-- ============================================= -->
-<!-- BANNER ANIMADO NO TOPO -->
-<!-- ============================================= -->
 <div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Saulo%20Carvalho&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=data%20science%20%E2%80%A2%20python%20%E2%80%A2%20estat%C3%ADstica&descSize=20&descAlignY=58)
 
-<!-- TEXTO DIGITANDO ANIMADO -->
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Apaixonado+por+dados+e+estat%C3%ADstica;Transformando+n%C3%BAmeros+em+insights+com+Python;Aberto+a+oportunidades+em+dados)](https://git.io/typing-svg)
 
-<!-- VISITANTES E SEGUIDORES -->
 <img src="https://komarev.com/ghpvc/?username=SaaaS04&label=Visitantes&color=8b5cf6&style=flat-square" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/SaaaS04?label=Seguidores&style=flat-square&color=8b5cf6" alt="Followers" />
 <img src="https://img.shields.io/github/stars/SaaaS04?label=Stars&style=flat-square&color=8b5cf6" alt="Stars" />
@@ -51,7 +47,7 @@ eu = Saulo()
 ## Jornada acadêmica
 
 ```
-Ciência da Computação  ▰▰▰▰▰▰▱▱  ~75%  →  cursando 7º de 8 períodos
+Ciência da Computação  ▰▰▰▰▰▰▱▱  ~75%  →  cursando 7º de 9 períodos
 ```
 
 <br>
