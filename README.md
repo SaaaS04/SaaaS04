@@ -1,9 +1,9 @@
-<!-- BANNER -->
+
 <div align="center">
   <img src="./banner.png" width="100%" alt="banner">
 </div>
 
-<!-- HEADER -->
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=4000&pause=1000&color=C77DFF&center=true&vCenter=true&width=700&height=60&lines=Hi+there%2C+I'm+Saulo+Carvalho+%F0%9F%91%8B;Computer+Science+%7C+Python+%7C+Data" alt="header" />
 </div>
@@ -14,7 +14,7 @@
 
 <br>
 
-<!-- BADGES DE IDENTIDADE -->
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=SaaaS04&style=for-the-badge&color=414868&label=PROFILE+VIEWS" alt="views">
   <img src="https://img.shields.io/badge/%E2%97%89_CS_STUDENT-7aa2f7?style=for-the-badge&labelColor=1a1b26" alt="cs">
@@ -27,7 +27,7 @@
 
 ---
 
-<!-- WHOAMI - TERMINAL STYLE -->
+
 <h3 align="center">[ WHOAMI ]</h3>
 
 <table align="center">
@@ -67,7 +67,7 @@ GOAL        →  Models that tell the truth
 
 ---
 
-<!-- TECH STACK -->
+
 <h3 align="center">[ TECH STACK ]</h3>
 
 <div align="center">
@@ -76,6 +76,8 @@ GOAL        →  Models that tell the truth
     <img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=ff9e64" alt="Python">
     <img src="https://img.shields.io/badge/scikit--learn-1a1b26?style=for-the-badge&logo=scikit-learn&logoColor=ff9e64" alt="scikit-learn">
     <img src="https://img.shields.io/badge/Statsmodels-1a1b26?style=for-the-badge&logo=python&logoColor=bb9af7" alt="Statsmodels">
+    <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=bb9af7" alt="JavaScript">
+    
   </p>
   <p><strong>◆ Tools & Environment ◆</strong></p>
   <p>
@@ -89,7 +91,7 @@ GOAL        →  Models that tell the truth
 
 ---
 
-<!-- GITHUB STATS -->
+
 <h3 align="center">[ GITHUB STATS ]</h3>
 
 <div align="center">
@@ -120,7 +122,7 @@ GOAL        →  Models that tell the truth
 
 ---
 
-<!-- CONNECT -->
+
 <h3 align="center">[ CONNECT ]</h3>
 
 <div align="center">
