@@ -1,32 +1,40 @@
-name: Gerar animação da cobrinha
+name: Generate Snake
 
-# Roda a cada 6 horas, manualmente, ou quando você commitar no main
 on:
+  # roda sozinho a cada 12 horas
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: "0 */12 * * *"
+  # botao "Run workflow" na aba Actions
   workflow_dispatch:
+  # roda tambem a cada push na main
   push:
     branches:
       - main
 
+# da permissao pra Action escrever na branch de saida
+permissions:
+  contents: write
+
 jobs:
-  gerar-cobrinha:
-    permissions:
-      contents: write
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
-      - name: Gerar SVG da cobrinha
+      # 1) le seu grafico de contribuicoes e gera o SVG da cobrinha
+      - name: Gera o SVG da cobrinha
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # cores casadas com a paleta do README (cobra clara + dots em gradiente)
+          # color_dots: 5 cores -> [0 contrib, baixa, media, alta, maxima]
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?color_snake=e6edf3&color_dots=161b22,a855f7,f72585,ffd60a,38bdf8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publicar na branch output
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      # 2) publica o resultado na branch "output"
+      - name: Publica na branch output
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
