@@ -79,7 +79,7 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com?user=SaaaS04&hide_border=true&background=0d1117&stroke=21262d&ring=a855f7&fire=f72585&currStreakLabel=ffd60a&sideLabels=c9d1d9&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" alt="streak">
+  <img src="https://streak-stats.demolab.com?user=SaaaS04&hide_border=true&background=0d1117&stroke=21262d&ring=a855f7&fire=f72585&currStreakLabel=ffd60a&sideLabels=c9d1d9&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" alt="streak">
 </div>
 
 <br>
