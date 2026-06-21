@@ -2,6 +2,25 @@
   <img src="./banner.png" width="100%" alt="banner">
 </div>
 
+<table align="center">
+<tr>
+<td>
+
+```python
+class Developer:
+    name  = "Saulo Carvalho"
+    role  = "Computer Science Student"
+
+    def life(self):
+        while True:
+            self.code()      # Python · JavaScript · Node.js
+            self.learn()     # Data Analysis
+```
+
+</td>
+</tr>
+</table>
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3500&pause=900&color=A855F7&center=true&vCenter=true&width=720&height=50&lines=Saulo+Carvalho;Computer+Science+Student;Python+%C2%B7+JavaScript+%C2%B7+Node.js;Data+Analysis" alt="header">
 </div>
@@ -17,6 +36,26 @@
 </div>
 
 <br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:a855f7,33:f72585,66:ffd60a,100:38bdf8&height=3" width="100%" alt="">
+
+<h3 align="center">⟨ &nbsp;<code>cat about.md</code>&nbsp; ⟩</h3>
+
+<table align="center">
+<tr>
+<td>
+
+```text
+›  Computer Science student, learning by building
+›  Most of my time goes to Python and data analysis
+›  On the web side I work with JavaScript and Node.js
+›  Comfortable in the terminal — VS Code, Git, bash
+›  Open to open source and new collabs
+```
+
+</td>
+</tr>
+</table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:a855f7,33:f72585,66:ffd60a,100:38bdf8&height=3" width="100%" alt="">
 
@@ -79,6 +118,7 @@
 <br>
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaaaS04&layout=compact&hide_border=true&langs_count=6&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" alt="most-used-languages">
   <img src="https://streak-stats.demolab.com?user=SaaaS04&hide_border=true&background=0d1117&stroke=21262d&ring=a855f7&fire=f72585&currStreakLabel=ffd60a&sideLabels=c9d1d9&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" alt="streak">
 </div>
 
@@ -94,6 +134,24 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:a855f7,33:f72585,66:ffd60a,100:38bdf8&height=3" width="100%" alt="">
 
+<h3 align="center">⟨ &nbsp;<code>fortune | dev</code>&nbsp; ⟩</h3>
+
+<table align="center">
+<tr>
+<td align="center">
+
+<br>
+<em>"Talk is cheap. Show me the code."</em>
+<br><br>
+<sub>— Linus Torvalds</sub>
+<br>
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:a855f7,33:f72585,66:ffd60a,100:38bdf8&height=3" width="100%" alt="">
+
 <h3 align="center">⟨ &nbsp;<code>./connect.sh</code>&nbsp; ⟩</h3>
 
 <div align="center">
@@ -103,5 +161,22 @@
 </div>
 
 <br>
+
+<h3 align="center">⟨ &nbsp;<code>sudo support</code>&nbsp; ⟩</h3>
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/SEU_USUARIO"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-0d1117?style=for-the-badge&logo=buymeacoffee&logoColor=ffd60a" alt="Buy Me a Coffee"></a>
+</div>
+
+<br>
+
+<!-- ===== FAIXA PIXEL ART =====
+     A referencia usa um GIF de cidade cyberpunk aqui.
+     1) coloque um .gif (ex: pixel-city.gif) numa pasta ./assets/ do repo
+     2) descomente a linha abaixo e ajuste o nome do arquivo
+<div align="center">
+  <img src="./assets/pixel-city.gif" width="100%" alt="pixel art banner">
+</div>
+============================== -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,33:f72585,66:ffd60a,100:38bdf8&height=120&section=footer" width="100%" alt="">
