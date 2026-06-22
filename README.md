@@ -156,7 +156,7 @@ class Developer:
 
 <div align="center">
   <a href="https://github.com/SaaaS04"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=a855f7" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"></a>
+  <a href="(https://www.linkedin.com/in/saulo-carvalho-127764396/)"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"></a>
   <a href="mailto:SEU_EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=f72585" alt="Gmail"></a>
 </div>
 
