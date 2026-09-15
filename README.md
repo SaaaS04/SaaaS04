@@ -14,7 +14,7 @@ class Developer:
     def life(self):
         while True:
             self.code()      # Python · JavaScript · Node.js
-            self.learn()     # Data Analysis
+            self.learn()     # Data Engineer
 ```
 
 </td>
