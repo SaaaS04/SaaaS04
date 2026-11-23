@@ -25,10 +25,12 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # cores casadas com a paleta do README (cobra clara + dots em gradiente)
+          # cores casadas com a paleta do README (gradiente do pôr do sol)
+          # dark e light: o README escolhe pelo tema de quem visita
           # color_dots: 5 cores -> [0 contrib, baixa, media, alta, maxima]
           outputs: |
-            dist/github-snake-dark.svg?color_snake=ffffff&color_dots=21262d,a855f7,f72585,ffd60a,38bdf8
+            dist/github-snake-dark.svg?color_snake=fdeee4&color_dots=2b2140,83477c,bd607c,e2837a,ffc47a
+            dist/github-snake-light.svg?color_snake=653a72&color_dots=f3e6ec,e8a0b8,e2837a,bd607c,83477c
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
